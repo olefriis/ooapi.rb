@@ -1,6 +1,6 @@
 require File.dirname(__FILE__) + '/../lib/moces_certificate'
 
-describe :PocesCertificate do
+describe MocesCertificate do
   before do
     @moces = MocesCertificate.read(File.dirname(__FILE__) + '/resources/test_moces_ok.raw')
   end

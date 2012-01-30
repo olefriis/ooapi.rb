@@ -1,6 +1,6 @@
 require File.dirname(__FILE__) + '/../lib/poces_certificate'
 
-describe :PocesCertificate do
+describe PocesCertificate do
   before do
     @poces = PocesCertificate.read(File.dirname(__FILE__) + '/resources/openlogon_pocesII.raw')
   end
