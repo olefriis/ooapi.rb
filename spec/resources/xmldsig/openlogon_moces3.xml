@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<openoces:signature xmlns:openoces="http://www.openoces.org/2006/07/signature#" version="0.1"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:openoces="http://www.openoces.org/2006/07/signature#">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference URI="#ToBeSigned">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>GJzO8tbwAwFXH2WxEkE5ZT8U/4Q=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+cm4FgNCdSstrXhc/zHZMCgtXwcfMkfko17aw/8SJgrMqqP/TzLHB+YYMAlWHDjfKv6T4gaY7NP3B
+9kjXC4VBOV9grX6s1wbnvvoLAD0qpScPOE1CJOMnIUKwSUKdpeKyrs5qpuRnCskrikNxrYchFPOS
+oRoia2c6V59IoR8KVVc=
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIFAzCCBGygAwIBAgIEQDcmQjANBgkqhkiG9w0BAQUFADA/MQswCQYDVQQGEwJESzEMMAoGA1UE
+ChMDVERDMSIwIAYDVQQDExlUREMgT0NFUyBTeXN0ZW10ZXN0IENBIElJMB4XDTA5MDExOTEyNTIz
+OVoXDTExMDExOTEzMjIzOVowgYQxCzAJBgNVBAYTAkRLMTwwOgYDVQQKEzNERU4gR1lMRE5FIEtZ
+TExJTkcgVi9LSEFOSCBUSFVZIE5HTyAvLyBDVlI6MTcyMDIwMzAxNzARBgNVBAMTClRlc3RNT0NF
+UzMwIgYDVQQFExtDVlI6MTcyMDIwMzAtUklEOjExMjIzMzQ0NTUwgZ8wDQYJKoZIhvcNAQEBBQAD
+gY0AMIGJAoGBAKbtP8M51I4IBKBT8IT4mSA4Pr8Wyoe/ZGFlksWcnYnYtwPwmS76uOCCurcx44Xz
+r98eIYdsB8t/uhPoeid8SIKpAcXyNGx2uzWAFAYUi4eH5D1tNoB7wmkjuCvAy/78eTaQIBYiQI6n
+di1VZacc9PldylSOLDwLMjgKNH1Qm+ZzAgMBAAGjggLEMIICwDAOBgNVHQ8BAf8EBAMCA/gwKwYD
+VR0QBCQwIoAPMjAwOTAxMTkxMjUyMzlagQ8yMDExMDExOTEzMjIzOVowRgYIKwYBBQUHAQEEOjA4
+MDYGCCsGAQUFBzABhipodHRwOi8vdGVzdC5vY3NwLmNlcnRpZmlrYXQuZGsvb2NzcC9zdGF0dXMw
+ggEDBgNVHSAEgfswgfgwgfUGCSkBAQEBAQEBAjCB5zAvBggrBgEFBQcCARYjaHR0cDovL3d3dy5j
+ZXJ0aWZpa2F0LmRrL3JlcG9zaXRvcnkwgbMGCCsGAQUFBwICMIGmMAoWA1REQzADAgEBGoGXVERD
+IFRlc3QgQ2VydGlmaWthdGVyIGZyYSBkZW5uZSBDQSB1ZHN0ZWRlcyB1bmRlciBPSUQgMS4xLjEu
+MS4xLjEuMS4xLjEuMi4gVERDIFRlc3QgQ2VydGlmaWNhdGVzIGZyb20gdGhpcyBDQSBhcmUgaXNz
+dWVkIHVuZGVyIE9JRCAxLjEuMS4xLjEuMS4xLjEuMS4yLjAaBglghkgBhvhCAQ0EDRYLZW1wbG95
+ZWVXZWIwFgYDVR0RBA8wDYELcGpAZGFuaWQuZGswgZcGA1UdHwSBjzCBjDBXoFWgU6RRME8xCzAJ
+BgNVBAYTAkRLMQwwCgYDVQQKEwNUREMxIjAgBgNVBAMTGVREQyBPQ0VTIFN5c3RlbXRlc3QgQ0Eg
+SUkxDjAMBgNVBAMTBUNSTDEzMDGgL6AthitodHRwOi8vdGVzdC5jcmwub2Nlcy5jZXJ0aWZpa2F0
+LmRrL29jZXMuY3JsMB8GA1UdIwQYMBaAFByYCUcaTDi5EMUEKVvx9E6Aasx+MB0GA1UdDgQWBBQx
+kdDV0itK3PhgVGCpm/vUYW3n1jAJBgNVHRMEAjAAMBkGCSqGSIb2fQdBAAQMMAobBFY3LjEDAgOo
+MA0GCSqGSIb3DQEBBQUAA4GBAF7QskLNOeQhEN+6fGTmmcPsTMS2agCZrAIVM0IsLyRhf5tUKPrq
+yMeVr0yFVfiVgtiyCkqdFF+hwVYSG4EVCT7jYJOgOesYIOeKJzTv0eYzGiSeC4XPJRsHJBiYkZY+
+kkO3bgDmqBExWXps6tm4mMWEKCti/cBc5FpSBfmGxxDJ
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEXTCCA8agAwIBAgIEQDYX/DANBgkqhkiG9w0BAQUFADA/MQswCQYDVQQGEwJESzEMMAoGA1UE
+ChMDVERDMSIwIAYDVQQDExlUREMgT0NFUyBTeXN0ZW10ZXN0IENBIElJMB4XDTA0MDIyMDEzNTE0
+OVoXDTM3MDYyMDE0MjE0OVowPzELMAkGA1UEBhMCREsxDDAKBgNVBAoTA1REQzEiMCAGA1UEAxMZ
+VERDIE9DRVMgU3lzdGVtdGVzdCBDQSBJSTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEArawA
+NI56sljDsnosDU+Mp4r+RKFys9c5qy8jWZyA+7PYFs4+IZcFxnbNuHi8aAcbSFOUJF0PGpNgPEtN
+c+XAK7p16iawNTYpMkHm2VoInNfwWEj/wGmtb4rKDT2a7auGk76q+Xdqnno4PRO8e7AKEHw7pN3k
+iHmZCI48PTRpRx8CAwEAAaOCAmQwggJgMA8GA1UdEwEB/wQFMAMBAf8wDgYDVR0PAQH/BAQDAgEG
+MIIBAwYDVR0gBIH7MIH4MIH1BgkpAQEBAQEBAQEwgecwLwYIKwYBBQUHAgEWI2h0dHA6Ly93d3cu
+Y2VydGlmaWthdC5kay9yZXBvc2l0b3J5MIGzBggrBgEFBQcCAjCBpjAKFgNUREMwAwIBARqBl1RE
+QyBUZXN0IENlcnRpZmlrYXRlciBmcmEgZGVubmUgQ0EgdWRzdGVkZXMgdW5kZXIgT0lEIDEuMS4x
+LjEuMS4xLjEuMS4xLjEuIFREQyBUZXN0IENlcnRpZmljYXRlcyBmcm9tIHRoaXMgQ0EgYXJlIGlz
+c3VlZCB1bmRlciBPSUQgMS4xLjEuMS4xLjEuMS4xLjEuMS4wEQYJYIZIAYb4QgEBBAQDAgAHMIGW
+BgNVHR8EgY4wgYswVqBUoFKkUDBOMQswCQYDVQQGEwJESzEMMAoGA1UEChMDVERDMSIwIAYDVQQD
+ExlUREMgT0NFUyBTeXN0ZW10ZXN0IENBIElJMQ0wCwYDVQQDEwRDUkwxMDGgL6AthitodHRwOi8v
+dGVzdC5jcmwub2Nlcy5jZXJ0aWZpa2F0LmRrL29jZXMuY3JsMCsGA1UdEAQkMCKADzIwMDQwMjIw
+MTM1MTQ5WoEPMjAzNzA2MjAxNDIxNDlaMB8GA1UdIwQYMBaAFByYCUcaTDi5EMUEKVvx9E6Aasx+
+MB0GA1UdDgQWBBQcmAlHGkw4uRDFBClb8fROgGrMfjAdBgkqhkiG9n0HQQAEEDAOGwhWNi4wOjQu
+MAMCBJAwDQYJKoZIhvcNAQEFBQADgYEApyoAjiKq6WK5XaKWUpVskutzohv1VcCke/3JeUVtmB+b
+yexJMC171s4RHoqcbufcI2ASVWwu84i45MaKg/nxoqojMyY19/W2wbQFEdsxUCnLa9e9tlWj0xS/
+AaKeUhk2MBOqv+hMdc71jOqc5JN7T2Ba6ZRIY5uXkO3IGZ3XUsw=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+<ds:Object xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:openoces="http://www.openoces.org/2006/07/signature#" Id="ToBeSigned"><ds:SignatureProperties>
+<ds:SignatureProperty><openoces:Name>host</openoces:Name><openoces:Value Encoding="base64" VisibleToSigner="yes">c3VwcG9ydA==</openoces:Value></ds:SignatureProperty>
+<ds:SignatureProperty><openoces:Name>openoces_opensign_layout_size_width</openoces:Name><openoces:Value Encoding="base64" VisibleToSigner="no">NDMw</openoces:Value></ds:SignatureProperty>
+<ds:SignatureProperty><openoces:Name>openoces_opensign_layout_size_height</openoces:Name><openoces:Value Encoding="base64" VisibleToSigner="no">MjAw</openoces:Value></ds:SignatureProperty>
+<ds:SignatureProperty><openoces:Name>challenge</openoces:Name><openoces:Value Encoding="base64" VisibleToSigner="no">bXljaGFsbGVuZ2U=</openoces:Value></ds:SignatureProperty>
+<ds:SignatureProperty><openoces:Name>action</openoces:Name><openoces:Value Encoding="base64" VisibleToSigner="no">bG9nb24=</openoces:Value></ds:SignatureProperty>
+<ds:SignatureProperty><openoces:Name>signtext</openoces:Name><openoces:Value Encoding="base64" VisibleToSigner="no">T3BlbkxvZ29uIDcvMTUvMDkgMTo0MCBQTQ==</openoces:Value></ds:SignatureProperty>
+<ds:SignatureProperty><openoces:Name>openoces_opensign_layout_color_background</openoces:Name><openoces:Value Encoding="base64" VisibleToSigner="no">MjU1LDI1NSwyNTU=</openoces:Value></ds:SignatureProperty>
+</ds:SignatureProperties></ds:Object>
+</ds:Signature></openoces:signature>

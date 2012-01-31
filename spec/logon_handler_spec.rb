@@ -1,11 +1,21 @@
 require File.dirname(__FILE__) + '/../lib/logon_handler'
+require File.dirname(__FILE__) + '/../lib/oces_environments'
 
 describe LogonHandler do
-  pending 'handles MOCES-3 logon' do
-    # TODO: Weird test name. What's MOCES-3?!?
+  it 'handles MOCES-3 logon' do # Weird test name. What's MOCES-3?!?
+    OcesEnvironments.environments = [:oces_i_danid_systemtest]
+    xml_dsig = File.read(File.dirname(__FILE__) + '/resources/xmldsig/openlogon_moces3.xml')
+
+    LogonHandler.validate_and_extract_certificate_and_status(xml_dsig, 'mychallenge', nil)
   end
   
-  pending 'handles POCES-II logon', 'TODO'
+  it 'handles POCES-II logon' do
+    OcesEnvironments.environments = [:oces_ii_danid_preprod]
+    xml_dsig = File.read(File.dirname(__FILE__) + '/resources/xmldsig/openlogon_pocesII.xml')
+
+    LogonHandler.validate_and_extract_certificate_and_status(xml_dsig, '1891710781545552145', 'www.nemid.nu')
+  end
+  
   pending 'fails for wrong environment'
   pending 'fails for wrong request issuer for POCES-II logon'
   pending 'fails if logon handler gets sign signature'
