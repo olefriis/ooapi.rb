@@ -1,5 +1,5 @@
 require File.dirname(__FILE__) + '/../lib/logon_handler'
-require File.dirname(__FILE__) + '/../lib/oces_environments'
+require File.dirname(__FILE__) + '/../lib/environment/oces_environments'
 
 describe LogonHandler do
   it 'handles MOCES-3 logon' do # Weird test name. What's MOCES-3?!?

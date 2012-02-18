@@ -1,6 +1,6 @@
 # TODO: This is just a stub for now
 require 'certificates/oces_certificate'
-require 'signature_properties'
+require 'signatures/signature_properties'
 
 class OpenlogonSignature
   def verify

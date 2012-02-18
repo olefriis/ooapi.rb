@@ -1,8 +1,8 @@
-require 'error_code_checker'
-require 'opensign_signature_factory'
-require 'challenge_verifier'
-require 'service_provider_setup'
-require 'certificate_and_status'
+require 'validation/error_code_checker'
+require 'signatures/opensign_signature_factory'
+require 'validation/challenge_verifier'
+require 'environment/service_provider_setup'
+require 'certificates/certificate_and_status'
 
 class LogonHandler
   def self.validate_and_extract_certificate_and_status(login_data, challenge, logonto)
