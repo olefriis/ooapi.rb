@@ -1,5 +1,5 @@
 # TODO: This is just a stub for now
-require 'oces_certificate'
+require 'certificates/oces_certificate'
 require 'signature_properties'
 
 class OpenlogonSignature

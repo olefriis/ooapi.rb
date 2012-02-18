@@ -1,8 +1,8 @@
-require File.dirname(__FILE__) + '/../lib/moces_certificate'
+require File.dirname(__FILE__) + '/../../lib/certificates/moces_certificate'
 
 describe MocesCertificate do
   before do
-    @moces = MocesCertificate.read(File.dirname(__FILE__) + '/resources/test_moces_ok.raw')
+    @moces = MocesCertificate.read(File.dirname(__FILE__) + '/../resources/test_moces_ok.raw')
   end
   
   it 'knows its CVR' do
