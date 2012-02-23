@@ -3,6 +3,9 @@ require File.dirname(__FILE__) + '/../lib/environment/oces_environments'
 
 describe LogonHandler do
   it 'handles MOCES-3 logon' do # Weird test name. What's MOCES-3?!?
+    # TODO: Remove when signature properties are implemented
+    SignatureProperties.current_challenge('mychallenge')
+    
     OcesEnvironments.environments = [:oces_i_danid_systemtest]
     xml_dsig = File.read(File.dirname(__FILE__) + '/resources/xmldsig/openlogon_moces3.xml')
 
@@ -10,6 +13,9 @@ describe LogonHandler do
   end
   
   it 'handles POCES-II logon' do
+    # TODO: Remove when signature properties are implemented
+    SignatureProperties.current_challenge('1891710781545552145')
+
     OcesEnvironments.environments = [:oces_ii_danid_preprod]
     xml_dsig = File.read(File.dirname(__FILE__) + '/resources/xmldsig/openlogon_pocesII.xml')
 
