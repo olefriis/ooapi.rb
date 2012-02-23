@@ -1,4 +1,3 @@
-# TODO: This is just a stub for now
 class ErrorCodeChecker
   @@error_codes = ['APP001', 'APP002', 'APP003', 'APP004', 'APP005',
     'SRV001', 'SRV002', 'SRV003', 'SRV004', 'SRV005', 'SRV006',
