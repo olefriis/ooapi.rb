@@ -2,6 +2,10 @@ require File.dirname(__FILE__) + '/../lib/logon_handler'
 require File.dirname(__FILE__) + '/../lib/environment/oces_environments'
 
 describe LogonHandler do
+  before do
+    OcesEnvironments.reset_for_testing
+  end
+  
   it 'handles MOCES-3 logon' do # Weird test name. What's MOCES-3?!?
     # TODO: Remove when signature properties are implemented
     SignatureProperties.current_challenge('mychallenge')
