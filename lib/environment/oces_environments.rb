@@ -1,5 +1,3 @@
-require 'environment/root_certificates'
-
 class OcesEnvironments
   # OCES I enviroments
   def self.OCESI_DANID_ENV_PROD; 'OCESI_DANID_ENV_PROD'; end
