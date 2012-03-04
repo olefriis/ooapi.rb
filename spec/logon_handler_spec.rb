@@ -26,22 +26,22 @@ describe LogonHandler do
     LogonHandler.validate_and_extract_certificate_and_status(xml_dsig, '1891710781545552145', 'www.nemid.nu')
   end
   
-  pending 'fails for wrong environment'
-  pending 'fails for wrong request issuer for POCES-II logon'
-  pending 'fails if logon handler gets sign signature'
-  pending 'fails with wrong challenge'
-  pending 'fails with no challenge'
-  pending 'fails on error APP001'
-  pending 'fails on error APP002'
-  pending 'fails on error APP003'
-  pending 'fails on error APP004'
-  pending 'fails on error APP005'
-  pending 'fails on error SRV001'
-  pending 'fails on error SRV002'
-  pending 'fails on error SRV003'
-  pending 'fails on error SRV004'
+  #it 'fails for wrong environment'
+  #it 'fails for wrong request issuer for POCES-II logon'
+  #it 'fails if logon handler gets sign signature'
+  #it 'fails with wrong challenge'
+  #it 'fails with no challenge'
+  #it 'fails on error APP001'
+  #it 'fails on error APP002'
+  #it 'fails on error APP003'
+  #it 'fails on error APP004'
+  #it 'fails on error APP005'
+  #it 'fails on error SRV001'
+  #it 'fails on error SRV002'
+  #it 'fails on error SRV003'
+  #it 'fails on error SRV004'
   # TODO: ...and lots of other fails... specs
   
-  pending 'can get subject DN with Danish letters'
-  pending 'can log in with Campus certificate'
+  #it 'can get subject DN with Danish letters'
+  #it 'can log in with Campus certificate'
 end
