@@ -1,0 +1,2 @@
+Exceptions, create a hierarchy or...?
+OcesEnvironments, an enum...?
