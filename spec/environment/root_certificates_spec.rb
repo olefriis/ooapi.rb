@@ -16,6 +16,10 @@ describe RootCertificates do
     subject_dn_for_ca(OcesEnvironments.OCESII_DANID_ENV_DEVELOPMENTTEST).should == "CN=TRUST2408 Systemtest III Primary CA, O=TRUST2408, C=DK"
     subject_dn_for_ca(OcesEnvironments.CAMPUSI_DANID_ENV_PROD).should == "OU=TDC Internet Class II CA, O=TDC Internet, C=DK"
   end
+  
+  it 'cannot lookup certificate for nil' do
+    lambda { RootCertificates.lookup_certificate(nil) }.should raise_error
+  end
 
   def subject_dn_for_ca(environment)
     subject_dn(RootCertificates.lookup_certificate(environment))
