@@ -1,2 +1,3 @@
 Exceptions, create a hierarchy or...?
 OcesEnvironments, an enum...?
+RootCertificates, and corresponding spec: Something nicer than subject.to_a.reverse.map{|name| "#{name[0]}=#{name[1]}"}.join(', ') for getting subject DN?

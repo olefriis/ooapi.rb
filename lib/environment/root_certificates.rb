@@ -450,6 +450,14 @@ class RootCertificates
     result
   end
   
+  def self.lookup_certificate_by_subject_dn(subject_dn)
+    @@root_certificates.each_value do |root_certificate|
+      root_certificate_dn = root_certificate.subject.to_a.reverse.map{|name| "#{name[0]}=#{name[1]}"}.join(', ')
+      return root_certificate if root_certificate_dn == subject_dn
+    end
+    raise Exception, "No certificate for subjectDn: #{subject_dn}"
+  end
+  
   # Stub method
   def self.has_certificate?(environment)
     true
