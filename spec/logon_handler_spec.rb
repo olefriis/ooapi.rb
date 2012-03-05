@@ -10,7 +10,7 @@ describe LogonHandler do
     # TODO: Remove when signature properties are implemented
     SignatureProperties.current_challenge('mychallenge')
     
-    OcesEnvironments.environments = [:oces_i_danid_systemtest]
+    OcesEnvironments.environments = OcesEnvironments.OCESI_DANID_ENV_SYSTEMTEST
     xml_dsig = File.read(File.dirname(__FILE__) + '/resources/xmldsig/openlogon_moces3.xml')
 
     LogonHandler.validate_and_extract_certificate_and_status(xml_dsig, 'mychallenge', nil)
@@ -20,7 +20,7 @@ describe LogonHandler do
     # TODO: Remove when signature properties are implemented
     SignatureProperties.current_challenge('1891710781545552145')
 
-    OcesEnvironments.environments = [:oces_ii_danid_preprod]
+    OcesEnvironments.environments = OcesEnvironments.OCESII_DANID_ENV_PREPROD
     xml_dsig = File.read(File.dirname(__FILE__) + '/resources/xmldsig/openlogon_pocesII.xml')
 
     LogonHandler.validate_and_extract_certificate_and_status(xml_dsig, '1891710781545552145', 'www.nemid.nu')

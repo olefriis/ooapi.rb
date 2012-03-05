@@ -460,6 +460,6 @@ class RootCertificates
   
   # Stub method
   def self.has_certificate?(environment)
-    true
+    @@root_certificates[environment] != nil
   end
 end
